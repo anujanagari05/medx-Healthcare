@@ -2,7 +2,6 @@ import { signInWithPopup, signOut } from "firebase/auth";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { auth, provider, db } from "./firebase";
 
-
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   User, Lock, LayoutDashboard, Activity, Stethoscope, Ambulance, 
@@ -199,6 +198,7 @@ const handleGoogleLogin = async () => {
     </div>
   );
 };
+
 
 // --- ROLE SELECTION ---
 const RoleSelection = ({ onSelectRole }: { onSelectRole: (role: Role) => void }) => {
@@ -1463,7 +1463,9 @@ export default function App() {
   // AUTH HANDLERS
   const handleLogin = () => setView(ViewState.ROLE_SELECTION);
   
-  const handleRoleSelect = async (role: Role) => {
+  
+
+const handleRoleSelect = async (role: Role) => {
   const firebaseUser = auth.currentUser;
   if (!firebaseUser) return;
 

@@ -9,13 +9,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyApYVdWGlPsdPvUy0vUxpr6WU92psKy_to",
-  authDomain: "medx-healthcare.firebaseapp.com",
-  projectId: "medx-healthcare",
-  storageBucket: "medx-healthcare.firebasestorage.app",
-  messagingSenderId: "526901933455",
-  appId: "1:526901933455:web:d81b0e28f7bd658ee307fa",
-  measurementId: "G-NY4LBWCSKB"
+  apiKey: "AIzaSyClkHl2HCKFveRY1VY120s9dJipAxtSofs",
+  authDomain: "medx-healthcare-69b5a.firebaseapp.com",
+  projectId: "medx-healthcare-69b5a",
+  storageBucket: "medx-healthcare-69b5a.firebasestorage.app",
+  messagingSenderId: "606001236929",
+  appId: "1:606001236929:web:aedcae27e19683c7da7d40",
+  measurementId: "G-61BD1DW0VN"
 };
 
 // Initialize Firebase
